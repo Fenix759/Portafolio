@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.a{
+    all: unset;
+    color: rgb(0, 81, 255);
+    cursor: pointer;
+}
+
+.header{
+    background-color: rgb(255, 153, 0);
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nose1{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.nombre{
+    font-weight: 600;
+    font-size: 1.56rem;
+}
+
+.git{
+    text-align: left;
+    font-weight: bolder;
+    width: 5rem; 
+    box-shadow: 1px 1px 15px #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.git:hover{
+    box-shadow: 1px 1px 2px 0px rgb(109, 109, 109);
+    transform: scale(1.02);
+}
+.sobre-mi{
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.56rem;
+
+}
+
+.lenguaje{
+    background-color: rgb(255, 155, 15);
+    font-weight: bolder;
+    border-radius: 5px 5px 0px 0px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.lenguaje2{
+    background-color: #ffc23f;
+    padding: 1rem;
+}
